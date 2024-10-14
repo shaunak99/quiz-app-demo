@@ -13,7 +13,7 @@ export async function POST(request) {
 
     console.log("Yo")
 
-    const response = await fetch('https://trytruffle.ai/api/v0/run', {
+    const response = await fetch('https://www.trytruffle.ai/api/v0/run', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
